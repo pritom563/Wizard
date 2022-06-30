@@ -8,7 +8,7 @@ h1{
 .orange-color{
     color: orange;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 150px;
 }
@@ -33,4 +33,34 @@ section{
 }
 .Character-archetypes{
     background-image: url(modern-white-background-free-vector.webp);
+}
+.Wizard-software{
+    background-color: white;
+    color: rgb(80, 80, 192);
+    font-weight: 800;
+}
+.Software-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+}
+.software{
+    background-image: url(simple-blue-opera-background-light-49001.jpg);
+    background-repeat: no-repeat;
+}
+#colour-item{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+#colour-item-first{
+    border-left: 7px solid;
+    border-image: linear-gradient(red, white);
+    border-image-slice: 1;
+}
+footer p {
+    text-align: center;
 }
